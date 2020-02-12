@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+    <header class="masthead">
+    <div class="container">
+        <a href="{{ site.baseurl }}/" title="Home" class="logo">{{ site.title }}</a>
+        <span class="tagline">{{ site.tagline }}</span>
+        <nav>
+            <a href="/demo">Demo</a>
+            <a href="/artifacts/devdocs/">Dev Docs</a>
+        </nav>
+    </div>
+    </header>
+
+
+    <div class="container content">
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. VISTA Adaptive Maintenance. All rights reserved.
+        </small>
+      </footer>
+
+    </div>
+
+  </body>
+</html>

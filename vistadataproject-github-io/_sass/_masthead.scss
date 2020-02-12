@@ -1,0 +1,72 @@
+// Masthead
+//
+
+.masthead {
+  width: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  text-align: left;
+  background-color: #0B62AD; /* matches logo */
+  overflow: auto;
+}
+
+.masthead a {
+  color: rgba(255,255,255,0.5);
+}
+
+.masthead .logo {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: white;
+  float: left;
+  font-weight: bold;
+}
+
+.masthead .tagline {
+  display: inline-block;
+  color: white;
+  opacity: 0.8;
+  margin-left: 2rem;
+  padding-top: 0.4rem;
+}
+
+.masthead nav {
+    float: right;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.masthead nav a {
+    display: inline-block;
+    // color: rgba(255,255,255,0.5);
+    opacity: 0.8;
+}
+
+.masthead nav a:hover {
+    color: white;
+    opacity: 1.0;
+}
+
+.masthead nav a:not(:last-child) {
+    margin-right: 1.25rem;
+}
+
+.masthead title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+
+  // CG: same as other links
+  // a {
+  //  color: #505050;
+  // }
+
+  small {
+    padding-left: 50px;
+    font-size: 75%;
+    font-weight: 400;
+    color: #c0c0c0;
+    letter-spacing: 0;
+  }
+}

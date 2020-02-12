@@ -1,0 +1,42 @@
+# Permalinks
+#
+permalink:           /blog/:title
+
+# Setup
+title:               VISTA Data Project
+tagline:             Continuity of Veteran Care 
+url:                 http://vistadataproject.info
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Custom vars
+github:
+  repo:              https://github.com/vistadataproject/vistadataproject.github.io
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "blog/page:num"
+excerpt_separator: "<!--more-->"
+
+authors:
+  conor: 
+    name: Conor Dowling
+    email: conor-dowling@caregraf.com
+    role: Project Architect
+    linkedin: conor-dowling-4306832b
+  rafael:
+    name: Rafael Richards
+    email: email@email.com
+    role: Project Director 
+    linkedin: rafaelrichardsmd
